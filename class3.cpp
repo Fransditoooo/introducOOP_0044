@@ -17,5 +17,19 @@ class persegi_panjang{
             cin >> luas;
         }
 
-           
+           void hitungLuas(){
+                luas = panjang * lebar;
+
+            }
+
+            void output_data(){
+                cout << "Tampilkan luas = " << luas << endl;
+            }
+
+            int main(){
+                persegi_panjang selena;
+                selena.input_Data();
+                selena.hitung_Luas();
+                selena.output_data();
+            }
 }
