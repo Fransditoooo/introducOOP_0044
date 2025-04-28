@@ -22,4 +22,11 @@ class mobil{
         }
 };
 
+int main(){
+    mobil brio;
+    brio.input_Data();
 
+    cout << "nama mobil = " << brio.nama_Mobil << endl;
+    cout << "tipe mobil = " << brio.tipe_Mobil << endl;
+    brio.output_data();
+}
