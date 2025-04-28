@@ -14,3 +14,10 @@ class mahasiswa{
         }
 };
 
+int main(){
+    mahasiswa mhs;
+
+    mhs.NIM = 2024;
+    mhs.nama = "Dito";
+    mhs.nilai = 85,5;
+}
